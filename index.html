@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Tester & Visualizer — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">🔍</span>
+                <div class="title-col">
+                    <h1>Regex Tester & Visualizer</h1>
+                    <p class="tagline">Interactive Regular Expression validator and match highlighter.</p>
+                </div>
+            </div>
+            <div class="badge">utilities</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <div class="input-group">
+                <label>Regular Expression</label>
+                <div class="regex-input-row">
+                    <span class="slash">/</span>
+                    <input type="text" id="regex-pattern" placeholder="[a-zA-Z]+">
+                    <span class="slash">/</span>
+                    <input type="text" id="regex-flags" value="g" placeholder="flags" style="width: 60px; text-align: center;">
+                </div>
+            </div>
+            <div class="input-group" style="margin-top: 16px;">
+                <label>Test Subject Text</label>
+                <textarea id="regex-text" placeholder="Type text here to find matches..."></textarea>
+            </div>
+            <div class="pane-header" style="margin-top: 16px;">Highlighted Matches</div>
+            <div id="regex-results" class="results-box"></div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
