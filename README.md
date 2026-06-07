@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Interactive Regular Expression validator and match highlighter.
+  name: regex-tester-visualizer version: 1.0 type: Repository author: VarshuAi description: >   Interactive Regular Expression validator and match highlighter. primary_tech: CSS
 primary_tech: CSS
 ```
 
